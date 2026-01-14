@@ -221,7 +221,7 @@ export function SubmissionForm({ isOpen, onClose, onSuccess }: SubmissionFormPro
 
 ${formData.wtf_moment ? `💡 ${formData.wtf_moment}\n\n` : ''}${formData.tech_stack ? `🛠️ Tech Stack: ${formData.tech_stack}\n` : ''}${formData.mvp_time ? `⚡ Built in: ${formData.mvp_time}\n` : ''}${formData.vibe_score ? `💊 Vibe Score: ${formData.vibe_score}/10\n` : ''}
 ${formData.demo_url ? `🌐 Demo: ${formData.demo_url}\n` : ''}
-Check out more vibe-coded projects: https://vicodin-lake.vercel.app/
+Check out more vibe-coded projects: https://vicodein.vercel.app/
 
 #ViCODEin #VibeCoding #ShipIt #BuildInPublic`;
 
