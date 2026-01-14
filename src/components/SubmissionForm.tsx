@@ -81,9 +81,7 @@ export function SubmissionForm({ isOpen, onClose, onSuccess }: SubmissionFormPro
 
       const { error: uploadError } = await supabase.storage
         .from('images')
-         if (filePath.includes('..')) {
-        throw new Error('Invalid file path');
-      }
+        .upload(filePath, file);
 
       if (uploadError) {
         console.error('Upload error:', uploadError);
